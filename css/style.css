@@ -1,0 +1,530 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif!important;
+}
+
+h1, h2, h3, h4, p{
+    margin: 0;
+}
+
+button{
+    outline: none!important;
+    border: none;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.slider-bg-img{
+    background-image: url(https://wallpapercave.com/wp/dLBZGeR.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.navbar-brand, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 14.5px;
+    line-height: 1.07;
+    letter-spacing: 0.14px;
+    text-align: left;
+    color: #ebebeb;
+  }
+
+  .nav-item{
+      margin: 0 8px;
+  }
+
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    width: 4%!important;
+}
+
+.main-header{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.64;
+    letter-spacing: 2.1px;
+    text-align: left;
+    color: #fff;
+}
+
+.header-content{
+    font-size: 14px;
+    line-height: 2.07;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.header-description-card{
+    background-color: #00455a;
+
+}
+  
+.description-card-inner{
+    padding: 2em 3em;
+}
+
+.learn-more-bannerbtn{
+    font-size: 12.5px;
+    line-height: 1.07;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #00455a;
+    padding: 15px 25px;
+    margin-top: 2em;
+}
+
+.navbar {
+    padding: .5rem 4.5rem;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: #fff;
+}
+
+.page-headers{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #404040;
+}
+
+.aboutus-page-title{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 0.42px;
+    text-align: center;
+    color: #fff;
+}
+
+.page-header-content{
+    font-size: 14px;
+    line-height: 1.75;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #747474;
+    padding-top: 1.5em;
+}
+
+.page-section-one, .page-section-two, .page-section-three{
+    padding-top: 5em;
+    background-color: #f5f5f5
+}
+
+.page-section-three{
+    padding-bottom: 7em;
+}
+
+#video-play {
+    background: url(https://cdn11.bigcommerce.com/s-x49po/images/stencil/500x659/products/430/6116/28Buddha34__30926__44991.1409745259.jpg?c=2);
+    min-height: 300px;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    
+
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video-play .fa-play{
+    font-size: 50px;
+    color: #fff;
+}
+
+.video-play-title{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.36;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #fff;
+}
+
+.gallary h3{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 0.42px;
+    text-align: center;
+    color: #404040;
+    padding-top: 5px;
+}
+
+.gallary .section-padding{
+    padding: 3em 0 5em 0;
+}
+
+.gllary-slider{
+    padding-top: 3em;
+}
+
+.fa-chevron-right{
+    color: #000;
+    position: relative;
+    left: 15px;
+    top: 30px;
+    font-size: 40px;
+}
+
+.fa-chevron-left{
+    color: #000;
+    position: relative;
+    right: 15px;
+    top: 30px;
+    font-size: 40px
+}
+
+.location-section{
+    background-color: #00455a;
+}
+
+.location-section .section-padding{
+    padding: 5em 0;
+}
+
+.location-title{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.27;
+    letter-spacing: 0.45px;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 1em;
+}
+
+.location-section h3{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.27;
+    letter-spacing: 0.45px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.location-content{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.27;
+    letter-spacing: 0.45px;
+    text-align: left;
+    color: #ffffff;
+    line-height: 2.07;
+    padding-top: 2em;
+}
+
+iframe{
+    width: 100%;
+    height: 20em;
+}
+
+.enquiry-title{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 0.42px;
+    color: #404040;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.enquiry-form input{
+    width: 98%;
+    border: solid 1px #b7b7b7;
+    padding: 13px 10px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.18px;
+    text-align: left;
+    color: #404040;
+}
+
+.enquiry-submit-btn{
+    background-color: #00455a;
+    font-size: 12.5px;
+    line-height: 1.07;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #ffffff;
+    padding: 13px 30px;
+    display: flex;
+    align-items: center;
+    margin: 3em 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.enquiry-section .section-padding{
+    padding: 3em 0;
+}
+
+footer p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.27;
+    letter-spacing: 0.45px;
+    text-align: left;
+    color: #ffffff;
+}
+
+footer .section-padding{
+    padding: 1.5em 0;
+}
+
+.aboutus-page-content{
+    font-size: 14px;
+    line-height: 1.75;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #fff;
+    padding-top: 1.5em;
+}
+
+.topheader{
+    background: url(https://cdn11.bigcommerce.com/s-x49po/images/stencil/500x659/products/430/6116/28Buddha34__30926__44991.1409745259.jpg?c=2);    height: 200px;
+    color: #fff;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-use-header .section-padding{
+    padding: 3em 0;
+}
+
+#contact .section-padding{
+    padding: 4em 0;
+}
+
+#contact input, textarea{
+    width: 100%;
+    border: solid 1px #b7b7b7;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.18px;
+    text-align: left;
+    color: #404040;
+    border-radius: 4px;
+    margin: 1em 0 0 0;
+}
+
+.contact-form-title{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #404040;
+    padding-bottom: .5em;
+}
+
+#contact h4{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #404040;
+}
+
+#contact p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #404040;
+    padding: 0.5em 0 2.2em 0;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #404040;
+    padding: 0.5em 0 2.2em 0;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #404040;
+    padding: 0.5em 0 2.2em 0;
+  }
+  
+  ::placeholder {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #404040;
+    padding: 0.5em 0 2.2em 0;
+  }
+
+  .login-form-card {
+    margin: 13% 0;
+    border-radius: 15px;
+    border: solid 1px #e0e6e8;
+    background-color: #ffffff;
+    padding: 2.5em 0 0 0;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.forms-title {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.63px;
+    color: #6c6c6c;
+    padding: 1rem 0 1.5rem 0;
+}
+
+.login-form {
+    margin: 1.3rem 0;
+}
+
+.login-in-input {
+    opacity: 0.78;
+    border-radius: 10px;
+    border: solid 1px #707070;
+    padding: 9.5px 0 9.5px 8.5px;
+    width: 60%;
+    text-decoration: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.create-forget-pass-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 75px;
+    margin-top: 4.5em;
+}
+
+.create-forget-title {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 1.3px;
+    color: rgba(41, 44, 56, 0.86);
+}
+
+.form-submit-button {
+    border: none;
+    outline: none !important;
+    box-shadow: none !important;
+    text-decoration: none;
+    border-radius: 35px;
+    background-color: #404040;
+    font-size: 12px;
+    line-height: 1.48;
+    letter-spacing: 1.3px;
+    text-align: left;
+    color: #fff;
+    padding: 10px 50px;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+
+#login-body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nav-colored {
+    background-color: 	#404040;
+    padding: 0.5em 4em 0 4em;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.Admin-login-section{
+    padding-top: 1.5em;
+}
+
+.fa-plus, .fa-minus{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.admin-panel{
+    padding-bottom: 5em;;
+}
+
+.admin-panel h5{
+    font-size: 16px;
+}
+
+
+
+@media (min-width: 768px) { 
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; 
+     }
+}
+
+@media (max-width: 576px) { 
+
+
+
+}
+
+

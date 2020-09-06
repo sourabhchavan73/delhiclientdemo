@@ -1,0 +1,156 @@
+/* Mobile View */
+@media (max-width: 576px){
+    .main-header {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .header-content {
+        font-size: 12.5px;
+        text-align: center;
+    }
+
+    .learnMore-btnsection{
+        display: flex;
+        justify-content: center;
+    }
+
+    .description-card-inner {
+        padding: 1.5em 2em;
+    }
+
+    .page-headers {
+        font-size: 22px;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    .page-header-content {
+        font-size: 12.5px;
+        text-align: center;
+    }
+
+    .page-section-one, .page-section-two, .page-section-three {
+        padding-top: 2em;
+        background-color: #f5f5f5;
+    }
+
+    .page-section-three {
+        padding-bottom: 2.5em;
+    }
+
+    #video-play {
+        min-height: 235px;
+    }
+
+    #video-play .fa-play {
+        font-size: 35px;
+        color: #fff;
+    }
+
+    .video-play-title {
+        font-size: 20px;
+    }
+
+    .gallary h3 {
+        font-size: 15px;
+    }
+
+    .fa-chevron-left, .fa-chevron-right {
+        color: #000;
+        position: relative;
+        right: 15px;
+        top: 15px;
+        font-size: 25px;
+    }
+
+    .gallary .section-padding {
+        padding: 1em 0 4.5em 0;
+    }
+
+    .location-section .section-padding {
+        padding: 2em 0 3em 0;
+    }
+
+    .location-title {
+        font-size: 20px;
+    }
+
+    .location-content {
+        font-size: 12.5px;
+        padding-bottom: 3em;
+    }
+
+    .enquiry-form input {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    
+    footer p {
+        font-size: 8.5px;
+        font-weight: 300;
+        line-height: 1.27;
+        letter-spacing: 0.45px;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .footer-second-col{
+        padding-top: 10px;
+    }
+    
+    .aboutus-page-content {
+        font-size: 11px;
+    }
+
+    .aboutus-page-title {
+        font-size: 22px;
+    }
+
+    .aboutus-page-content {
+        font-size: 12.5px;
+    }
+
+    #contact h4 {
+        font-size: 18px;
+    }
+
+    #contact p {
+        font-size: 13px;
+    }
+
+    #contact .p-4 {
+        padding: 0.5rem!important;
+    }
+
+    .contactus-second-col{
+        margin-top: 1.5em;
+    }
+
+    .contact-form-title {
+        font-size: 18px;
+    }
+
+    .login-form-card {
+        margin: 22% 0;
+        padding: 3.5em 0 0 0;
+
+    }
+
+    .nav-colored {
+        display: none;
+    }
+
+    .navbar {
+        padding: .5rem 1rem;
+        background-color: #404040;
+    }
+
+    .nav-item {
+        margin: 0;
+        padding: 6px 0;
+    }
+
+
+
+}
